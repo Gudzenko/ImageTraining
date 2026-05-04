@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 2
+names: ['Chicken', 'My-First-Project']
+
+roboflow:
+  workspace: s-workspace-tvzy5
+  project: my-first-project-ewq5l
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/s-workspace-tvzy5/my-first-project-ewq5l/dataset/1
